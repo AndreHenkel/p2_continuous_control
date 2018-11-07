@@ -5,6 +5,7 @@ The sphere seems to be on the same distance and height but circles around the ce
 
 The basic structure of this architecture (model, agent, training, ...) was taken from the Udacity examples given to us.
 
+This project is set up on Linux, if you want to use it on another platform look at the Setup to get your individual Unity environment running and replace it in the code(train.py) and folder(Reacher_Linux) appropriately.
 
 # Setup
 To start, you need Python 3.6, PyTorch, Numpy, Matplotlib, and the Unity ML-Agents Toolkit.
