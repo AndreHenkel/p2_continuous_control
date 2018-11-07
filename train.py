@@ -45,7 +45,6 @@ def ddpg(n_episodes=500, max_t=1000, print_every=100):
     for i_episode in range(1, n_episodes + 1):
         env_info = env.reset(train_mode=True)[brain_name]  # reset the environment
         state = env_info.vector_observations[0]  # get the current state (for each agent)
-        agent.reset()
         score = 0
         for t in range(max_t):
             action = agent.act(state)

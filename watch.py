@@ -37,7 +37,6 @@ scores = []
 for i_episode in range(1, 100 + 1):
     env_info = env.reset(train_mode=False)[brain_name]  # reset the environment
     state = env_info.vector_observations[0]  # get the current state (for each agent)
-    agent.reset()
     score = 0
     for t in range(1000):
         action = agent.act(state)
