@@ -39,6 +39,9 @@ For the action size you control both joints with horizontal and vertical movemen
 
 The task is episodic and the environment is considered solved after getting a score of +30 over the last 100 consecutive episodes.
 
+Below is the reward chart of my successful algorithm. It solved the environment with +30 at around 250 episodes.
+![Solved Environment](checkpoints/scores_v2_solved.png)
+
 
 # Archtitecture
 
